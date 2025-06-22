@@ -12,14 +12,14 @@
 - הצגה של משימות
 
 ---
-
+<div dir="rtl" align="right">
 ## 🛠️ טכנולוגיות ושפות
 - **Backend:** Java עם Spring Boot, שימוש ב־JPA לניהול נתונים בזיכרון (או מסד נתונים)
 - **Frontend:** ReactJS
 - **כלים:**
   - IntelliJ IDEA — לפיתוח צד השרת
   - Postman — לבדיקות API
-
+</div>
 ---
 
 ## 🚀 פונקציונליות עיקרית
@@ -32,10 +32,10 @@
 
 ## 🧱 ארכיטקטורה ומבנה
 - צד השרת כולל:
-  - **Task** (מחלקת מודל)
+<div dir="rtl" align="right">  - **Task** (מחלקת מודל)
   - **TaskService** (שירות)
   - **TaskRepository** (רפוזיטורי)
-  - **TaskController** (קונטרולר)
+  - **TaskController** (קונטרולר)</div>
 
 - צד השרת מספק RESTful API עם נקודות קצה לביצוע פעולות CRUD.
 
